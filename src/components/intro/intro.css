@@ -1,0 +1,65 @@
+.intro {
+    margin: 0px 10px;
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 77vh;
+}
+
+.left-div, .right-div {
+    flex: 1;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-div .info > :nth-child(1) {
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--black);
+    letter-spacing: 1px;
+    line-height: 2.5rem;
+}
+
+.left-div .info > :nth-child(2) {
+    font-weight: bold;
+    font-size: 3rem;
+    color: var(--blue);
+    letter-spacing: 1.5px;
+}
+
+.left-div .info > :nth-child(3) {
+    font-weight: 100;
+    font-size: 14.8px;
+    color: var(--gray);
+    margin: 10px 0px;
+}
+
+.left-div .info > :nth-child(4) {
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.left-div .links {
+    margin-top: 150px;
+}
+
+.right-div {
+    position: relative;
+}
+
+.right-div .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.right-div .photo > *{
+    position: absolute;
+    width: 75%;
+}
+.right-div .myPic {
+    width: 150%;
+}

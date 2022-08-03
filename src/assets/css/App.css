@@ -1,0 +1,18 @@
+:root {
+    --black:#2b373d;
+    --blue: #008984;
+    --gray: #445760;
+}
+
+.App {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.btn {
+    padding: 3px 12px;
+    border-radius: 15px;
+    font-size: medium;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgb(211, 57, 211) , rgb(73, 73, 209));
+}
